@@ -12,9 +12,9 @@ cd Space
 ```
 ## Options
 
-**-f** or **--file** <PATH> directory to input file
-**-t** or **--threshold** <number> threshold from 0..1 to tuning the algorithm
-**-r** or **--factor** <number> Integer from 1..3 to tuning the reduce algorithm to clean some noise  
+1.**-f** or **--file** <PATH> directory to input file
+2.**-t** or **--threshold** <number> threshold from 0..1 to tuning the algorithm
+3.**-r** or **--factor** <number> Integer from 1..3 to tuning the reduce algorithm to clean some noise  
 
 ```sh
 node main -f <PATH> -t <number> -r <decimal>
