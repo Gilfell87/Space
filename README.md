@@ -43,7 +43,7 @@ Tunning the algorithm
 
 ```
 node main -t 0.67 -r 3
-Name: , Matrix:
+
 W: 11, H: 8
 Matrix:
 -----------
