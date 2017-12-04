@@ -31,7 +31,9 @@ There two types of strategy to find a Alien pattern into the image.
 2. Reduce the noise by iterating over the input image and matching it with a small matrix in the points that could possible be a false positive value (noise). After that execute the step **1.**.
 
 Tunning the algorithm
+
 **Threshold** -  change the this value the sub images in **1.** need (higher value)more or (smaller value)less similar than the original.
+
 **Factor** - change this value you can change the value of noise in **2.**
 
 
