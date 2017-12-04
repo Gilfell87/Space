@@ -12,9 +12,11 @@ cd Space
 ```
 ## Options
 
-1.**-f** or **--file** <PATH> directory to input file
-2.**-t** or **--threshold** <number> threshold from 0..1 to tuning the algorithm
-3.**-r** or **--factor** <number> Integer from 1..3 to tuning the reduce algorithm to clean some noise  
+1.**-f** or **--file** <PATH> directory to input file.
+  
+2.**-t** or **--threshold** <number> threshold from 0..1 to tuning the algorithm.
+  
+3.**-r** or **--factor** <number> Integer from 1..3 to tuning the reduce algorithm to clean some noise . 
 
 ```sh
 node main -f <PATH> -t <number> -r <decimal>
@@ -26,7 +28,7 @@ There two types of strategy to find a Alien pattern into the image.
 
 1. One that iterate over the raw input image and store all the subm images that have similiar area with the aliens. After that, iterate over all sub images returns that all the most similar ones. To overcome the edges cases the input image is reshaped to add the alien matrix to the borders of the original image.
 
-2. Reduce the noise by iterating over the input image and matching it with a small matrix in the points that could possible be a false positive value (noise). After that execute the step **1.**
+2. Reduce the noise by iterating over the input image and matching it with a small matrix in the points that could possible be a false positive value (noise). After that execute the step **1.**.
 
 Tunning the algorithm
 ** Threshold ** -  change the this value the sub images in ** 1. ** need (higher value)more or (smaller value)less similar than the original.
