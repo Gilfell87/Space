@@ -51,7 +51,6 @@ class Alien {
     });
     
     this.density = count;
-    console.log(this.density);
   };
   
   toString(){
