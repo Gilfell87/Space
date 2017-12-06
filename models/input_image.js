@@ -1,5 +1,7 @@
-const math = require('mathjs');
 
+/** Class that transform the information 
+ * of input file into a matrix.
+ */
 class InputImage {
   
   /**
